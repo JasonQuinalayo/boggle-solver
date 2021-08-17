@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#Boggle {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#boggle-description p {
+  width: 600px;
+  text-align: center;
+}
+
+#boggle-interface {
+  margin-top:10px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#boggle-work-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boggle-row {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.boggle-tile {
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boggle-tile input {
+  text-align: center;
+  width: 30px;
+  margin-top: 15px;
+  font-size: large;
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+}
+
+#boggle-words-box {
+  border: 1px solid black;
+  padding-left: 10px;
+  margin: 50px;
+  overflow: auto;
+  height: 240px;
+  width: 400px;
+}
+
+#boggle-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#boggle-entered-words {
+  width: 600px;
+}
+
+#boggle-score-sheet {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#boggle-score-sheet div {
+  width:200px;
+  text-align: left;
+}
+
+#boggle-board input:focus {
+  outline: none;
+}
+
+#boggle-score-sheet div span {
+  float: right;
+}
+
+#boggle-edit button {
+  margin-top: 50px;
+}
+
+#boggle-solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#boggle-buttons button {
+  margin: 10px;
+}
+
+#boggle-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#boggle-input-word button {
+  margin-left: 10px;
+}
+
+#boggle-solution button {
+  margin-top: 20px;
+}
+
+#boggle-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#boggle-input-word {
+  margin-top:50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#boggle-words-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:350px;
+}
+
+#boggle-solution div button {
+  margin:10px;
+  width: 200px;
+}
+
+.boggle-word {
+  margin: 5px;
+  width: 100px;
+}
+
+#boggle-edit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
