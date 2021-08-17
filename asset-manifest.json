@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/boggle-solver/static/css/main.6b50f4c8.chunk.css",
+    "main.js": "/boggle-solver/static/js/main.4e3d5eb6.chunk.js",
+    "main.js.map": "/boggle-solver/static/js/main.4e3d5eb6.chunk.js.map",
+    "runtime-main.js": "/boggle-solver/static/js/runtime-main.ad3a103a.js",
+    "runtime-main.js.map": "/boggle-solver/static/js/runtime-main.ad3a103a.js.map",
+    "static/js/2.2799979c.chunk.js": "/boggle-solver/static/js/2.2799979c.chunk.js",
+    "static/js/2.2799979c.chunk.js.map": "/boggle-solver/static/js/2.2799979c.chunk.js.map",
+    "index.html": "/boggle-solver/index.html",
+    "static/css/main.6b50f4c8.chunk.css.map": "/boggle-solver/static/css/main.6b50f4c8.chunk.css.map",
+    "static/js/2.2799979c.chunk.js.LICENSE.txt": "/boggle-solver/static/js/2.2799979c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad3a103a.js",
+    "static/js/2.2799979c.chunk.js",
+    "static/css/main.6b50f4c8.chunk.css",
+    "static/js/main.4e3d5eb6.chunk.js"
+  ]
+}
